@@ -3,7 +3,7 @@
 state("Fusion")
 {
 byte startRun : 0x2A52D4,0x04DB; 	//byte changes to more or equal than 0xF0 when race stars
-byte endRace : 0x2A52D4, 0x0521;	//end of the race.
+//byte endRace : 0x2A52D4, 0x0521;	//end of the race.
 byte time :  0x2A52D4,  0x099c;		//1st byte of time game counts by itself
 byte sec :  0x2A52D4,  0x099D; 		//2nd byte of time game counts by itself
 byte isFinalTime : 0x2A52D4, 0x0997;//2nd byte of whole track time(even counts after finish)
