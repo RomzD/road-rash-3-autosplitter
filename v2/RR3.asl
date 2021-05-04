@@ -13,7 +13,7 @@ byte mainTimer : 0x2A52D4, 0x0996;	// 1st byte of 2nd whole track timer.
 byte mainTimer3 : 0x2A52D4, 0x0990;	// 1st byte of whole track timer
 byte mainTimer4 : 0x2A52D4, 0x0991;	// 1st byte of whole track timer 
 
-byte laterEndRace :  0x2A52D4,0x0989 // end of race. Maybe ticks later than other var
+byte endRace :  0x2A52D4,0x0989 // end of race. Maybe ticks later than other var
 //byte sec :  0x2A52D4,  0x099D; 	// 2nd byte of proper game time game counts by itself after finish
 //byte time :  0x2A52D4,  0x099c;	// 2nd byte of proper game time game counts by itself after finish
 }
@@ -32,7 +32,7 @@ isLoading{
 	if	( 
 		(current.mainTimer3 == 0  && current.mainTimer4 ==0)  ||	
 	    (current.mainTimer == 0  && current.mainTimer1 ==0  ) ||
-		 current.laterEndRace == 1 							  || 									
+		 current.endRace == 1 							  || 									
 		 current.startRun < 0xf0									
 		)
 		
@@ -45,7 +45,7 @@ isLoading{
 }
 
 split{ 
-		if (current.laterEndRace==1 && old.laterEndRace ==0){
+		if (current.endRace==1 && old.endRace ==0){
 		TimeSpan myTime = (TimeSpan) timer.GameTimePauseTime;
 		string strMilliseconds = (myTime.Milliseconds.ToString());
 		int intMilliseconds= Int32.Parse(strMilliseconds[0]+"4"+"5");
