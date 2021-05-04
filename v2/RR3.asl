@@ -48,7 +48,7 @@ split{
 		if (current.laterEndRace==1 && old.laterEndRace ==0){
 		TimeSpan myTime = (TimeSpan) timer.GameTimePauseTime;
 		string strMilliseconds = (myTime.Milliseconds.ToString());
-		int intMilliseconds= Int32.Parse(strMilliseconds[0]+"4"+"0");
+		int intMilliseconds= Int32.Parse(strMilliseconds[0]+"4"+"5");
 		
 		print("Millseconds are -" + strMilliseconds);
 		TimeSpan newGameTime = new TimeSpan(0,myTime.Hours, myTime.Minutes,myTime.Seconds, intMilliseconds);
