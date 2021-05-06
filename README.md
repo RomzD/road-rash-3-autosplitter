@@ -1,5 +1,5 @@
 # road-rash-3-autosplitter
-#Unreliable. v1 get time from memry which is calculated by the game and counts wrong delta while in game
+#Unreliable. v1 get time from memry which is calculated by the game and counts wrong delta while in game    
 #v2(updated 06.05.21) Counts proper ingame time. UPD from 06.05.21 - fixed "small game time" bug   
  
  
