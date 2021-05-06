@@ -3,4 +3,4 @@
 #v2(updated 06.05.21) Counts proper ingame time. UPD from 06.05.21 - fixed "small game time" bug   
  
  
-#Due to a lot of redundant 'm pretty shure code can be refactored in 20-30 lines. If you're able to do so, please feel free to commit better code.    
+#Due to a lot of redundant conversions i'm pretty shure code can be refactored in 20-30 lines. If you're able to do so, please feel free to commit better code.    
