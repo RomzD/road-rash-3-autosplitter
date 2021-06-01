@@ -3,6 +3,4 @@
 #v2(updated 06.05.21) Counts proper ingame time. UPD from 06.05.21 - fixed "small game time" bug   
  
  
-# If you're enthusiast i suggest you to use v2 autosplitter with debug in cooperation with "debug view" program to catch & fix bugs if there's any.
-# If you to know about road rash 3 visit
-https://roadrash3.ru
+# If you're enthusiast i suggest you to use v2 autosplitter with debug in cooperation with "debug view" program to catch & fix bugs if there's any
