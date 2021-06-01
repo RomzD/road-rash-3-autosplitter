@@ -4,4 +4,5 @@
  
  
 # If you're enthusiast i suggest you to use v2 autosplitter with debug in cooperation with "debug view" program to catch & fix bugs if there's any.
-# If you to know about road rash 3 visit https://roadrash3.ru
+# If you to know about road rash 3 visit
+https://roadrash3.ru
